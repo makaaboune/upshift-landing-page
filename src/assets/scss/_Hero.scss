@@ -1,0 +1,20 @@
+.hero {
+  // background-image: url('../img/logo.png');
+  background: #0f0c29;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, rgba(36, 36, 62, 0.95), rgba(48, 43, 99, 0.95), rgba(15, 12, 41, 0.95));  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, rgba(36, 36, 62, 0.95), rgba(48, 43, 99, 0.95), rgba(15, 12, 41, 0.95)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  &-foot  {
+    background-color: #FFF;
+    ul {
+      display: flex;
+      justify-content: space-between;
+      li {
+          padding: 40px 0;
+      }
+    }
+  }
+  .button {
+    border-color: transparent!important;
+    transition: 250ms all ease-in;
+  }
+}
